@@ -1,0 +1,68 @@
+body
+{
+	margin:0px;
+	background-color:lightgrey;
+}
+nav
+{
+background-color:white;
+padding:10px;
+}
+nav a
+{
+color:black;
+text-decoration:none;
+font-size:24px;
+margin:20px 40px;
+}
+/*Sidebar*/
+aside
+{
+background:linear-gradient(black);
+width:200px;
+text-align:center;
+height:full;
+float:left;
+top:0px;
+}
+aside a
+{
+text-decoration:none;
+display:block;
+text-decoration-color:darkblue;
+margin-bottom:40px;
+padding:5px 5px;
+
+}
+aside a:hover
+{
+background:lightgrey;
+body;
+}
+
+/*section*/
+section
+{
+color:black;
+margin-left:100px;
+top:100px;
+}
+section article h2
+{
+margin-top:60px;
+}
+section article
+{
+padding:20px;
+margin:5px;
+border-radius:20px;
+}
+section article p
+{
+padding:5px;
+}
+footer
+{
+margin-left:200px;
+text-align:center;
+}
